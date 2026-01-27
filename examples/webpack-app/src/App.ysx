@@ -1,0 +1,52 @@
+---
+version: 1.0
+name: App
+
+imports:
+- from: react
+  default: React
+  named: [ useState ]
+- from: ./logo.svg
+  default: logo
+- from: ./App.css
+
+hooks:
+- useState:
+    variable: count
+    initialValue: 0
+- useEffect:
+
+render:
+  div:
+    className: App
+    children:
+    - header:
+        className: App-header
+        children:
+        - img:
+            src: !!js |
+              logo
+            className: App-logo
+            alt: logo
+        - p:
+            children: "Count: {count}"
+        - button:
+            children: Increase
+            onClick: !!js |
+              () => setCount(count + 1)
+        - button:
+            children: Decrease
+            onClick: !!js |
+              () => setCount(count - 1)
+        - p:
+            children:
+            - "Edit "
+            - code:
+                children: "src/App.ysx"
+            - " and save to reload."
+        - a:
+            className: App-link
+            href: "https://reactjs.org"
+            target: _blank
+            rel: noopener noreferrer
+            children: Learn React
