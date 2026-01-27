@@ -1,6 +1,6 @@
 # YSX - YAML Syntax Extension for React
 
-![Build Status](https://img.shields.io/github/workflow/status/yourusername/ysx-react/CI)
+![Build Status](https://img.shields.io/github/workflow/status/S33G/ysx/CI)
 ![NPM Version](https://img.shields.io/npm/v/ysx-core)
 ![License](https://img.shields.io/npm/l/ysx-core)
 ![Security](https://img.shields.io/badge/security-production%20secure-brightgreen)
@@ -266,4 +266,4 @@ MIT © 2026
 
 - [Documentation](docs/)
 - [Examples](examples/)
-- [Issue Tracker](https://github.com/yourusername/ysx-react/issues)
+- [Issue Tracker](https://github.com/S33G/ysx/issues)
