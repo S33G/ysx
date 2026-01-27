@@ -1,8 +1,5 @@
 # YSX - YAML Syntax Extension for React
 
-![Build Status](https://img.shields.io/github/workflow/status/S33G/ysx/CI)
-![NPM Version](https://img.shields.io/npm/v/ysx-core)
-![License](https://img.shields.io/npm/l/ysx-core)
 ![Security](https://img.shields.io/badge/security-production%20secure-brightgreen)
 
 **YSX** (YAML Syntax Extension) is a build-time transpiler that lets you write React components in YAML format. It provides a clean, declarative syntax that compiles to standard JSX/TSX at build time.
@@ -139,15 +136,15 @@ imports:
   - from: react
     default: React
     named: [useState, useEffect, useMemo]
-  
+
   # Default import only
   - from: ./MyComponent
     default: MyComponent
-  
+
   # Named imports only
   - from: lodash
     named: [map, filter, reduce]
-  
+
   # Side-effect import (CSS, etc.)
   - from: ./styles.css
 ```
