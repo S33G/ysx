@@ -1,0 +1,9 @@
+---
+version: 1.0
+name: SimpleButton
+
+render:
+  button:
+    onClick: !!js |
+      () => alert('Clicked!')
+    children: Click Me

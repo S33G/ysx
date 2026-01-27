@@ -1,0 +1,17 @@
+---
+name: Counter
+
+hooks:
+  - useState:
+      variable: count
+      initialValue: 0
+
+render:
+  div:
+    children:
+      - h1: Counter Demo
+      - p: "Count: {count}"
+      - button:
+          onClick: !!js |
+            () => setCount(count + 1)
+          children: Increment
