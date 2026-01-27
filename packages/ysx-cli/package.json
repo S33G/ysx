@@ -1,0 +1,13 @@
+{
+  "name": "ysx-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for transpiling YSX files",
+  "main": "src/cli.js",
+  "bin": {
+    "ysx": "src/cli.js"
+  },
+  "dependencies": {
+    "ysx-core": "^1.0.0",
+    "commander": "^11.1.0"
+  }
+}
