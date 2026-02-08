@@ -1,7 +1,5 @@
 # YSX - YAML Syntax Extension for React
 
-![Security](https://img.shields.io/badge/security-production%20secure-brightgreen)
-
 **YSX** (YAML Syntax Extension) is a build-time transpiler that lets you write React components in YAML format. It provides a clean, declarative syntax that compiles to standard JSX/TSX at build time.
 
 ## Features
